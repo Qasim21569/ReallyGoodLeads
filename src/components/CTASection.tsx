@@ -79,25 +79,7 @@ const CTASection = () => {
             </motion.button>
           </motion.div>
 
-          {/* Urgency Element - Mobile Optimized */}
-          <motion.div
-            initial={{ opacity: 0, scale: 0.9 }}
-            whileInView={{ opacity: 1, scale: 1 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.6, delay: 0.6 }}
-            className="bg-white/10 backdrop-blur-sm rounded-xl lg:rounded-2xl p-4 lg:p-6 max-w-2xl mx-auto mb-8 lg:mb-0"
-          >
-            <div className="text-base lg:text-lg font-semibold mb-2">
-              🚀 Limited Time Offer
-            </div>
-            <p className="text-gray-100 mb-3 lg:mb-4 text-sm lg:text-base">
-              Get your first 10 leads FREE when you sign up this month. 
-              No setup fees, no long-term contracts required.
-            </p>
-            <div className="text-xs lg:text-sm text-rgl-gold font-medium">
-              Offer expires in 7 days
-            </div>
-          </motion.div>
+
 
           {/* Trust Indicators - Mobile Optimized */}
           <motion.div

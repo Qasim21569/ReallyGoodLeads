@@ -238,10 +238,10 @@ const FAQs = () => {
                 <h3 className="text-lg font-semibold text-rgl-charcoal mb-2">Call Us</h3>
                 <p className="text-rgl-gray mb-4">Speak with our team directly</p>
                 <a 
-                  href="tel:+1234567890" 
+                  href="tel:+13214087274" 
                   className="text-rgl-red font-semibold hover:text-rgl-red-dark transition-colors"
                 >
-                  (123) 456-7890
+                  +1-321-408-7274
                 </a>
               </motion.div>
 
@@ -255,10 +255,10 @@ const FAQs = () => {
                 <h3 className="text-lg font-semibold text-rgl-charcoal mb-2">Email Us</h3>
                 <p className="text-rgl-gray mb-4">Send us your questions</p>
                 <a 
-                  href="mailto:info@reallygoodleads.com" 
+                  href="mailto:contact@reallygoodleads.xyz" 
                   className="text-rgl-red font-semibold hover:text-rgl-red-dark transition-colors"
                 >
-                  info@reallygoodleads.com
+                  contact@reallygoodleads.xyz
                 </a>
               </motion.div>
 

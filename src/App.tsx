@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
 import Navigation from './components/Navigation';
 import Footer from './components/Footer';
+import ScrollToTop from './components/ScrollToTop';
 import Homepage from './pages/Homepage';
 import ServicesOverview from './pages/ServicesOverview';
 import RoofingLeads from './pages/services/RoofingLeads';
@@ -19,6 +20,7 @@ import FloatingCTA from './components/FloatingCTA';
 function App() {
   return (
     <Router>
+      <ScrollToTop />
       <div className="min-h-screen bg-white">
         <Navigation />
         <AnimatePresence mode="wait">

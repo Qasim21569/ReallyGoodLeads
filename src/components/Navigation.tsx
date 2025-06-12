@@ -30,6 +30,8 @@ const Navigation = () => {
   const closeMobileMenu = () => {
     setIsOpen(false);
     setMobileServicesOpen(false);
+    // Scroll to top when navigating on mobile
+    window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 
   return (
@@ -82,7 +84,10 @@ const Navigation = () => {
                   <Link
                     to="/services"
                     className="block px-4 py-2 text-rgl-charcoal hover:bg-gray-50 font-medium"
-                    onClick={() => setServicesOpen(false)}
+                    onClick={() => {
+                      setServicesOpen(false);
+                      window.scrollTo({ top: 0, behavior: 'smooth' });
+                    }}
                   >
                     All Services
                   </Link>
@@ -92,7 +97,10 @@ const Navigation = () => {
                         key={service.path}
                         to={service.path}
                         className="block px-4 py-2 text-rgl-gray hover:bg-gray-50 hover:text-rgl-red transition-colors"
-                        onClick={() => setServicesOpen(false)}
+                        onClick={() => {
+                          setServicesOpen(false);
+                          window.scrollTo({ top: 0, behavior: 'smooth' });
+                        }}
                       >
                         {service.name}
                       </Link>

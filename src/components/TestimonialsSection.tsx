@@ -12,7 +12,7 @@ const TestimonialsSection = () => {
       role: 'Owner',
       rating: 5,
       text: 'Really Good Leads transformed our business. We went from struggling to find customers to having more qualified leads than we can handle. The quality is unmatched.',
-      results: '300% increase in monthly revenue',
+      results: '100% increase in monthly revenue',
       industry: 'Roofing'
     },
     {
@@ -21,7 +21,7 @@ const TestimonialsSection = () => {
       role: 'General Manager',
       rating: 5,
       text: 'The leads are exactly what they promise - pre-qualified and exclusive. Our conversion rate has never been higher, and the ROI is incredible.',
-      results: '85% conversion rate',
+      results: '45% conversion rate',
       industry: 'HVAC'
     },
     {
@@ -30,7 +30,7 @@ const TestimonialsSection = () => {
       role: 'Sales Director',
       rating: 5,
       text: 'After trying multiple lead generation companies, Really Good Leads is the only one that consistently delivers quality prospects ready to buy.',
-      results: '$2M in additional sales',
+      results: '$650K in additional sales',
       industry: 'Solar'
     },
     {
@@ -39,7 +39,7 @@ const TestimonialsSection = () => {
       role: 'Co-Owner',
       rating: 5,
       text: 'The professionalism and quality of service is outstanding. Every lead comes with complete information and genuine interest in our services.',
-      results: '250% business growth',
+      results: '90% business growth',
       industry: 'Moving'
     }
   ];

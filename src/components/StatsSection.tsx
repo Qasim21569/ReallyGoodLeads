@@ -26,7 +26,7 @@ const StatsSection = () => {
   const stats = [
     {
       icon: <Users className="w-8 h-8" />,
-      number: 2500,
+      number: 850,
       suffix: '+',
       label: 'Happy Clients',
       description: 'Businesses growing with our leads',
@@ -277,34 +277,7 @@ const StatsSection = () => {
           </div>
         </motion.div>
 
-        {/* Floating Numbers Animation */}
-        {isVisible && (
-          <div className="absolute inset-0 pointer-events-none">
-            {[...Array(10)].map((_, i) => (
-              <motion.div
-                key={i}
-                className="absolute text-rgl-red/20 font-bold text-6xl"
-                initial={{ 
-                  opacity: 0,
-                  x: Math.random() * window.innerWidth,
-                  y: Math.random() * 600 + 600
-                }}
-                animate={{
-                  opacity: [0, 0.3, 0],
-                  y: -100,
-                }}
-                transition={{
-                  duration: 3,
-                  delay: Math.random() * 2,
-                  repeat: Infinity,
-                  repeatDelay: Math.random() * 5 + 5
-                }}
-              >
-                {Math.floor(Math.random() * 100)}
-              </motion.div>
-            ))}
-          </div>
-        )}
+
       </div>
     </section>
   );
